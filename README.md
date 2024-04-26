@@ -20,17 +20,17 @@ Foram elaborados e publicados programas para a resolução de vários problemas 
 ---
 ## Resultados
 
-### **Capítulo 1** - Sistemas de Equações Lineares
+### **Capítulo 1** - [Sistemas de Equações Lineares](Sistemas_Equacoes_Lineares.ipynb)
 Sistema de três destiladores, proposto por Kwong (2016).
 
 Sistema de ar condicionado, proposto por Felder *et al.* (2017).
 
-### **Capítulo 2** - Sistemas de Equações Não Lineares
+### **Capítulo 2** - [Sistemas de Equações Não Lineares](Sistemas_Equacoes_Nao_Lineares.ipynb)
 Operação com gás a altas pressões, proposto por Kwong (2016).
 
 Crescimento microbiano descrito por modelo publicado por Huang (2013).
 
-### **Capítulo 3** - Sistemas de Equações Diferenciais Ordinárias
+### **Capítulo 3** - [Sistemas de Equações Diferenciais Ordinárias](Sistemas_Equacoes_Diferenciais_Ordinarias.ipynb)
 Concentração de componentes em processo fermentativo, a partir de cinética de Monod e modelo de Luedeking e Piret.
 
 ---

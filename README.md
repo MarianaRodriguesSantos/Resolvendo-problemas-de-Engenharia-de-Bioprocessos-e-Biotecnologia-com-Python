@@ -21,17 +21,31 @@ Foram elaborados e publicados programas para a resolução de vários problemas 
 ## Resultados
 
 ### **Capítulo 1** - [Sistemas de Equações Lineares](Sistemas_Equacoes_Lineares.ipynb)
-Sistema de três destiladores, proposto por Kwong (2016).
+**Sistema de três destiladores, proposto por Kwong (2016).**
 
-Sistema de ar condicionado, proposto por Felder *et al.* (2017).
+O código deve receber, em suas primeiras linhas, o fluxo de alimentação da primeira coluna de destilação ($F$), as concentrações de cada componente na alimentação ($z_1$ a $z_4$) e as concentrações totais das correntes de saída, de topo e de fundo, dos destiladores 2 e 3 ($x_{21}$ e $y_{21}$ a $x_{34}$ e $y_{34}$). O significado e as unidades de cada variável, incógnita e dos índices empregados estão detalhados no texto explicativo que precede o código de resolução. Após a execução, o programa imprime os dados de fluxo e concentrações de cada componente, tanto na corrente de entrada como nas saídas superior e inferior de cada destilador.
+
+**Sistema de ar condicionado, proposto por Felder *et al.* (2017).**
+
+O programa recebe as variáveis de número de mols e quantidades relativas, necessárias para o balanço de massa de cada trecho do sistema. Os valores definidos no texto explicativo acima do código de resolução podem ser adaptados para o caso estudado. Estes valores são a quantidade, em mol, de ar que resfria o cômodo ($n_5$), as composições percentuais de ar seco e água que se inserem pelo ponto de reciclo ($m_{11}$ e $m_{21}$), que adentram o condicionador ($m_{12}$ e $m_{22}$), que são descartadas ao exterior ($m_{13}$ e $m_{23}$), e que entram no cômodo para resfriá-lo ($m_{15}$ e $m_{25}$). Com a execução, o código imprime as quantidades, em mol, de ar seco e água que entram e saem de cada trecho do sistema, ou seja, o condicionador, o cômodo, o exterior e o ponto de reciclagem.
 
 ### **Capítulo 2** - [Sistemas de Equações Não Lineares](Sistemas_Equacoes_Nao_Lineares.ipynb)
-Operação com gás a altas pressões, proposto por Kwong (2016).
+**Operação com gás a altas pressões, proposto por Kwong (2016).**
 
-Crescimento microbiano descrito por modelo publicado por Huang (2013).
+O código deve receber, nas primeiras linhas, as características de temperatura e pressão críticas do gás de estudo, e as características de temperatura e pressão do processo. Ao final da execução é impresso o volume molar do gás nas condições estabelecidas.
+
+**Crescimento microbiano descrito por modelo publicado por Huang (2013).**
+
+É necessário inserir no programa, em suas primeiras linhas, os valores característicos do microrganismo estudado e das condições de cultivo estabelecidas. São empregados a taxa de crescimento específica do microrganismo ($\mu_{máx}$), o coeficiente de transição da fase lag e sua duração ($\alpha$ e $\lambda$), além das concentrações inicial e máxima de células ao longo do cultivo ($Y_0$ e $Y_{máx}$). Após executar o código, é impresso um gráfico que mostra a concentração celular no meio em função do tempo de crescimento.
 
 ### **Capítulo 3** - [Sistemas de Equações Diferenciais Ordinárias](Sistemas_Equacoes_Diferenciais_Ordinarias.ipynb)
-Concentração de componentes em processo fermentativo, a partir de cinética de Monod e modelo de Luedeking e Piret.
+**Concentração de componentes em processo fermentativo, a partir de cinética de Monod e modelo de Luedeking e Piret.**
+
+Nas linhas iniciais do programa é preciso definir as constantes do crescimento microbiano nas condições estabelecidas. São necessários a taxa de crescimento específica do microrganismo ($\mu_{máx}$), a constante de saturação ($K_S$), o periodo de crescimento ($tf$, no código), a concentração de substrato no início do crescimento ($S_0$) e na alimentação ($S_i$), a concentração de produto no início ($P_0$) e na alimentação ($P_i$), o volume inicial de cultivo ($V_0$), a vazão de alimentação ($Q$), o coeficiente estequiométrico de conversão de substrato em biomassa ($Y_{XS}$) e as constantes de Luedeking e Piret ($\alpha$ e $\beta$). A execução resulta na impressão de um gráfico que mostra a variação das concentrações de substrato, produto e células no meio de cultivo ao longo do tempo.
+
+## Execução dos códigos
+
+Todos os documentos aqui disponíveis foram elaborados no *Google Colab*, utilizando o sistema *Markdown* de formatação de textos e a linguagem de programação *Python*. Portanto, os programas podem ser baixados aqui no *GitHub* e executados pelo [*site* do *Google Colab*](https://colab.research.google.com/).
 
 ---
 ## Referências Bibliográficas
